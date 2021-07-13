@@ -10,6 +10,11 @@ h1 {
   text-align: center;
   text-transform: capitalize;
 }
+h2 {
+  font-size: 35pt;
+  text-align: center;
+  text-transform: uppercase;
+}
 p {
   font-size: 25pt;
   text-align: center;
@@ -21,6 +26,7 @@ p {
     background: red;
   }
 }
+
 
 /* ----------- For screens 1200px wide and larger----------- */
 @media (min-width: 1200px) {
