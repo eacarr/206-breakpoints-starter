@@ -1,0 +1,30 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+  width: 100%; 
+  background: blue;
+}
+h1 {
+  font-size: 45pt;
+  text-align: center;
+  text-transform: capitalize;
+}
+p {
+  font-size: 25pt;
+  text-align: center;
+  margin: 0 35px;
+}
+/* ----------- For screens 768px and larger ----------- */
+@media (min-width: 768px) {
+	body {
+    background: red;
+  }
+}
+
+/* ----------- For screens 1200px wide and larger----------- */
+@media (min-width: 1200px) {
+  body{
+    background: aqua;
+  }
+}
